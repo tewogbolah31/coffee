@@ -105,41 +105,41 @@
 
 
     .info{
-        height: 60vh;
+        height: 80vh;
         flex-direction: column;
         align-items: end;
         overflow: hidden;
     }
     .info__box{
-        padding: 3rem;
-        flex: 0 0 40%;
+        padding: 2rem;
+        flex: 0 0 100%;
     }
     .info__hero{
+        display: none;
         align-self: end;
-        flex: 0 0 40%;
+        flex: 0;
         margin-bottom: 2rem;
     }
     .info__text{
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
     .more{
-        height: 60vh;
+        height: 80vh;
         flex-direction: column;
         align-items: stretch;
         overflow: hidden;
     }
     .more__box{
-        padding: 3rem;
-        flex: 0 0 40%;
+        padding: 2rem;
+        flex: 0 0 100%;
     }
     .more__hero{
-        align-self: end;
-        flex: 0 0 50%;
-        margin-bottom: 2rem;
+        display: none;
+        flex: 0;
     }
     .more__text{
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
     .about{
@@ -171,25 +171,10 @@
     .header{
         height: 50vh;
     }
-    .more{
-        height: 65vh;
-    }
-    .info{
-        height: 70vh;
-    }
     .heading__1{
         font-size: 3.5rem;
     }
     .heading__2{
         font-size: 2rem;
-    }
-}
-
-@media only screen and (max-width: 25em) {
-    .more{
-        height: 70vh;
-    }
-    .info{
-        height: 90vh;
     }
 }
